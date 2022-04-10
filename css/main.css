@@ -1,0 +1,46 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.nav-logo {
+    max-width: 200px;
+}
+
+.btn-primary {
+    background: #a5350d !important;
+    border: 0 !important;
+}
+
+.bi-check-circle-fill {
+    color: green !important;
+}
+
+#hero {
+    background:url('/images/toronto.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+.phone {
+    text-decoration: none;
+}
+
+.phone:hover {
+    text-decoration: underline;
+}
+
+.bg-om {
+    background: #0bbdcb !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .nav-phone {
+        padding-top: 8px !important;
+        padding-bottom: 8px !important;
+    }
+
+    .nav-quote {
+        margin-bottom: 16px !important;
+    }
+}
